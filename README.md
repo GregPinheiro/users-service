@@ -45,6 +45,19 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+## Run migrations
+
+```bash
+#generate migration
+$ yarn run migration:generate
+
+#run migration
+$ yarn run migration:run
+
+#reverte migration
+$ yarn run migration:revert
+```
+
 ## Run tests
 
 ```bash
